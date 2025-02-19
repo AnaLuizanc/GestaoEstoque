@@ -62,7 +62,7 @@ if (!isset($_SESSION['usuario'])) {
                         <div class="collapse" id="cadastros" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#" target="iframe">Categorias</a>
+                                <a class="nav-link" href="cadastra_categoria.php" target="iframe">Categorias</a>
                                 <a class="nav-link" href="#" target="iframe">Fornecedores</a>
                                 <a class="nav-link" href="#" target="iframe">Produtos</a>
                                 <a class="nav-link" href="#" target="iframe">Requisições</a>

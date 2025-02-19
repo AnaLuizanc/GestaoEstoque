@@ -22,7 +22,7 @@ if (!isset($_SESSION['usuario'])) {
     <div style="margin-top: 40px;">
         <h3>Lista de categorias</h3>
         <div style="text-align: right; margin-top: 20px;">
-            <a href="adicionar_categoria.php" role="button" class="btn btn-success btn-sm">Cadastrar categoria</a>
+            <a href="cadastra_categoria.php" role="button" class="btn btn-success btn-sm">Cadastrar categoria</a>
         </div>
         <br>
         <table id="table_id" class="table">
