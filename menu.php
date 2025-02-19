@@ -12,7 +12,7 @@ if (!isset($_SESSION['usuario'])) {
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home</title>
+    <title>Gestão de Estoque</title>
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"></script>
@@ -78,7 +78,7 @@ if (!isset($_SESSION['usuario'])) {
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="lista_categorias.php" target="iframe">Categorias</a>
                                 <a class="nav-link" href="lista_fornecedores.php" target="iframe">Fornecedores</a>
-                                <a class="nav-link" href="#" target="iframe">Produtos</a>
+                                <a class="nav-link" href="lista_produtos.php" target="iframe">Produtos</a>
                             </nav>
                         </div>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#relatorios">
