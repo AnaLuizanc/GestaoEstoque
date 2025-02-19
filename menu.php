@@ -68,6 +68,19 @@ if (!isset($_SESSION['usuario'])) {
                                 <a class="nav-link" href="#" target="iframe">Requisições</a>
                             </nav>
                         </div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#lista">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Listagem
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="lista" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="lista_categorias.php" target="iframe">Categorias</a>
+                                <a class="nav-link" href="#" target="iframe">Fornecedores</a>
+                                <a class="nav-link" href="#" target="iframe">Produtos</a>
+                            </nav>
+                        </div>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#relatorios">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Relatórios
