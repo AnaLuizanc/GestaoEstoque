@@ -15,14 +15,14 @@
 <body>
     <div class="container" style="margin-top: 40px; width: 500px;" id="container">
         <div style="text-align: center;">
-            <h3>Editar Categoria</h>
+            <h3>Editar Categoria</h3>
         </div>
         <form action="_atualiza_categoria.php" method="post" style="margin-top: 20px">
             <?php
                 //faz a busca no BD para trazer os dados do registro pelo id
                 $sql = "SELECT * FROM categoria WHERE id_categoria = $id";
-                $buscar = mysqli_query($conec, $sql);
-                $array = mysqli_fetch_array($buscar);
+                $buscar = mysqli_query($con, $sql);
+                $array = mysqli_fetch_array($buscar);   
                 $id_categoria = $array['id_categoria'];
                 $categoria = $array['categoria'];
                 $status = $array['status'];

@@ -8,14 +8,14 @@
 </head>
 
 <body>    
-<?php
-    include 'connection.php';
-    $id = $_POST['id'];
-    $categoria = $_POST['categoria'];
-    $status = $_POST['status'];
-    $sql = "UPDATE categoria SET categoria='$categoria', status='$status' WHERE id_categoria = $id";
-    mysqli_query($con, $sql); //envia query para o BD
-?>
+    <?php
+        include 'connection.php';
+        $id = $_POST['id'];
+        $categoria = $_POST['categoria'];
+        $status = $_POST['status'];
+        $sql = "UPDATE categoria SET categoria='$categoria', status='$status' WHERE id_categoria = $id";
+        mysqli_query($con, $sql); //envia query para o BD
+    ?>
     <script>
         setTimeout(function () {
             document.getElementById("erro").style.display = "none"; history.go(-2);
