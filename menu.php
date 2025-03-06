@@ -21,7 +21,7 @@ if (!isset($_SESSION['usuario'])) {
 <body>
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="index.php">Sistema de Gestão</a>
+        <a class="navbar-brand ps-3" href="menu.php">Sistema de Gestão</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
         <!-- Navbar-->
@@ -64,7 +64,7 @@ if (!isset($_SESSION['usuario'])) {
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="cadastra_categoria.php" target="iframe">Categorias</a>
                                 <a class="nav-link" href="cadastra_fornecedor.php" target="iframe">Fornecedores</a>
-                                <a class="nav-link" href="#" target="iframe">Produtos</a>
+                                <a class="nav-link" href="cadastra_produto.php" target="iframe">Produtos</a>
                                 <a class="nav-link" href="#" target="iframe">Requisições</a>
                             </nav>
                         </div>
