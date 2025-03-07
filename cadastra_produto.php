@@ -22,11 +22,11 @@
         </div>
         <form name="formulario" action="insere_produto.php" method="post">
             <label for="">Código</label>
-            <input type="text" name="codigo" class="form-control" autocomplete="new-password" required>
+            <input type="number" name="codigo" class="form-control" autocomplete="new-password" required>
             <label for="">Produto</label>
             <input type="text" name="produto" class="form-control" autocomplete="off" required>
             <label for="">Saldo</label>
-            <input type="text" name="saldo" class="form-control" autocomplete="off" required>
+            <input type="number" name="saldo" class="form-control" autocomplete="off" required>
             <label for="">Tipo</label>
             
             <input type="radio" name="tipo" value="nacional">
@@ -35,7 +35,7 @@
             <label for="">Importado</label><br>
 
             <label for="">Preço</label>
-            <input type="text" name="preco_compra" class="form-control" autocomplete="new-password" required>
+            <input type="number" step="0.01" name="preco_compra" class="form-control" autocomplete="new-password" required>
             <label for="">Fornecedor</label>
             <?php            
                 include 'connection.php';

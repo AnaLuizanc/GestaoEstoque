@@ -26,9 +26,9 @@
             <label for="">E-mail</label>
             <input type="text" name="email_fornecedor" class="form-control" autocomplete="off" required>
             <label for="">CNPJ</label>
-            <input type="text" name="cnpj" class="form-control" autocomplete="off" required>
+            <input type="number" name="cnpj" class="form-control" autocomplete="off" required>
             <label for="">Telefone</label>
-            <input type="text" name="telefone" class="form-control" autocomplete="new-password" required>
+            <input type="number" name="telefone" class="form-control" autocomplete="new-password" required>
             <div style="text-align:center;margin:20px;">
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#confSalvar">Cadastrar</button>
             </div>
