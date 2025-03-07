@@ -68,7 +68,7 @@
                         <td><?php echo $nome_categoria ?></td>
                         <td><?php echo $nome_fornecedor ?></td>
                         <td>
-                            <a title="Editar" href="edita_produto.php?id=<?php echo $id_fornecedor ?>" role="button"
+                            <a title="Editar" href="edita_produto.php?id=<?php echo $codigo ?>" role="button"
                             class="btn btn-warning btn-sm"><i class="far fa-edit"></i>&nbsp; Editar</a>
                         </td>
                     </tr>
