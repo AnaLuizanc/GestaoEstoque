@@ -33,6 +33,7 @@
                     <th scope="col">Tipo</th>
                     <th scope="col">Categoria</th>
                     <th scope="col">Fornecedor</th>
+                    <th scope="col">Operações</th>
                 </tr>
             </thead>
             <?php
@@ -66,6 +67,10 @@
                         <td><?php echo $tipo ?></td>
                         <td><?php echo $nome_categoria ?></td>
                         <td><?php echo $nome_fornecedor ?></td>
+                        <td>
+                            <a title="Editar" href="edita_produto.php?id=<?php echo $id_fornecedor ?>" role="button"
+                            class="btn btn-warning btn-sm"><i class="far fa-edit"></i>&nbsp; Editar</a>
+                        </td>
                     </tr>
             <?php } ?>
         </table>

@@ -55,8 +55,6 @@
                         <td>
                             <a title="Editar" href="edita_fornecedor.php?id=<?php echo $id_fornecedor ?>" role="button"
                             class="btn btn-warning btn-sm"><i class="far fa-edit"></i>&nbsp; Editar</a>
-                            <a title="Excluir" href="deleta_categoria.php?id=<?php echo $id_categoria ?>" role="button"
-                            class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i>&nbsp; Excluir</a>
                         </td>
                     </tr>
                     <?php } ?>
