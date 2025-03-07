@@ -34,15 +34,15 @@
 
             <div class="form-group">
                 <label>ID</label>
-                <input type="text" class="form-control" name="id_fornecedor" disabled value="<?php echo $id_fornecedor ?>">
+                <input type="number" class="form-control" name="id_fornecedor" disabled value="<?php echo $id_fornecedor ?>">
                 <br><label>Nome</label>
                 <input type="text" class="form-control" name="nome_fornecedor" value="<?php echo $nome_fornecedor ?>">
                 <label>E-mail</label>
                 <input type="text" class="form-control" name="email_fornecedor" value="<?php echo $email_fornecedor ?>">
                 <label>CNPJ</label>
-                <input type="text" class="form-control" name="cnpj" value="<?php echo $cnpj ?>">
+                <input type="number" class="form-control" name="cnpj" value="<?php echo $cnpj ?>">
                 <label>Telefone</label>
-                <input type="text" class="form-control" name="telefone" value="<?php echo $telefone ?>">
+                <input type="number" class="form-control" name="telefone" value="<?php echo $telefone ?>">
             </div>
                 <div class="form-group">
                     <label>Status</label>
